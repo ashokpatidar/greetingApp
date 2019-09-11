@@ -1,13 +1,19 @@
 <html>
-    <head></head>
+    <head>
+        <script>
+            function login() {
+                alert('hello')
+            }
+        </script>
+    </head>
     <body>
-        <h3>
-            <h3>US News</h3>
-            <h3 class='world'>World News</h3>
-            <h3 class='sports'>Sports</h3>
-            <a href="https://google.com">Go to Google</a>
-            <input disabled type="text">
-            <button>Click Me</button>
-        </h3>
+        <div id='login'>
+            <h1>What is your name ?</h1>
+            <form>
+                <input id='input' type="text" name='userName' placeholder='your name'>
+                <input type="submit" value="Log In" onclick="login()">
+            </form>
+        </div>
+        
     </body>
 </html>
