@@ -1,19 +1,22 @@
 <html>
-    <head>
-        <script>
-            function login() {
-                alert('hello')
-            }
-        </script>
-    </head>
-    <body>
-        <div id='login'>
-            <h1>What is your name ?</h1>
-            <form>
-                <input id='input' type="text" name='userName' placeholder='your name'>
-                <input type="submit" value="Log In" onclick="login()">
+
+<head>
+    <title>Greeting Application</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Manjari:100,400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main class='main-content'>
+        <section class="main-content-section">
+            <h1 class='name-tag-what'>What is Your name?</h1>
+            <form action="">
+                <input type="text" name='username' placeholder="enter your name" required>
+                <input type="submit" name='login' value="Log In">
             </form>
-        </div>
-        
-    </body>
+        </section>
+    </main>
+</body>
+
 </html>

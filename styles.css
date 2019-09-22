@@ -1,0 +1,59 @@
+body {
+    font-family: 'Manjari', sans-serif;
+    background-image: url('assets/bg.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.name-tag-what {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+input::placeholder{
+    color:black;
+    font-weight: 100;
+}
+
+input[type=submit]{
+    background: #ffffff00;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: white;
+    padding: 6px;
+    font-weight: 100;
+    
+}
+
+input[type=text]{
+  background: #ffffff99;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 6px 8px;
+  color: white;
+}
+
+.main-content-section {
+    border: 1px solid white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff20;
+    border-radius: 20px;
+}
+
+
+/* page 2*/
